@@ -1,14 +1,17 @@
 {
   "name": "vue-fluidcoins",
-  "version": "0.0.1",
-  "main": "./dist/fluidcoins.umd.js",
-  "module": "./dist/fluidcoins.es.js",
+  "private": false,
+  "version": "0.0.2",
+  "main": "./dist/fluidcoins.umd.min.js",
+  "module": "./dist/fluidcoins.es.min.js",
   "files": ["dist"],
   "exports": {
     ".": {
-      "import": "./dist/fluidcoins.es.js",
-      "require": "./dist/fluidcoins.umd.js"
-    }
+      "import": "./dist/fluidcoins.es.min.js",
+      "require": "./dist/fluidcoins.umd.js",
+      "style": "./dist/style.css"
+    },
+    "./style": "./dist/style.css"
   },
   "scripts": {
     "dev": "vite",
