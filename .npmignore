@@ -1,0 +1,62 @@
+
+# source code
+src
+lib
+index.html
+
+# compiler
+tsconfig.json
+webpack.config.js
+postcss.config.js
+
+# files
+*.log
+cypress.json
+*.code-workspace
+
+# tests
+test
+jest.config.js
+setupJest.ts
+coverage
+
+#  lint
+.eslintrc.js
+.prettierrc
+
+# IDE - VSCode
+.vscode
+
+# git
+.git
+
+.github
+
+./node_modules/
+index.js
+pay.js
+index.html
+
+.DS_Store
+node_modules
+/src/url.js
+
+.env
+# local env files
+.env.local
+.env.*.local
+
+# Log files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Editor directories and files
+.idea
+.vscode
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
