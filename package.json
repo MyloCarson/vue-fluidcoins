@@ -1,6 +1,5 @@
 {
   "name": "vue-fluidcoins",
-  "private": true,
   "version": "0.0.1",
   "main": "./dist/fluidcoins.umd.js",
   "module": "./dist/fluidcoins.es.js",
